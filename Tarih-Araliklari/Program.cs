@@ -11,6 +11,8 @@ namespace Tarih_Araliklari
         static void Main(string[] args)
         {
             List<TarihInfo> tarihler = new List<TarihInfo>();
+
+            // Elimizde bir kaç tane tarih aralığımız olsun
             tarihler.Add(new TarihInfo { Id = 1, BasTarih = new DateTime(2020, 10, 1), BitTarih = new DateTime(2020, 10, 10) });
             tarihler.Add(new TarihInfo { Id = 2, BasTarih = new DateTime(2020, 10, 11), BitTarih = new DateTime(2020, 10, 20) });
             tarihler.Add(new TarihInfo { Id = 3, BasTarih = new DateTime(2020, 10, 21), BitTarih = new DateTime(2020, 11, 10) });
